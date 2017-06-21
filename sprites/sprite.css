@@ -1,0 +1,78 @@
+/*
+Icon classes can be used entirely standalone. They are named after their original file names.
+
+Example usage in HTML:
+
+`display: block` sprite:
+<div class="icon-home"></div>
+
+To change `display` (e.g. `display: inline-block;`), we suggest using a common CSS class:
+
+// CSS
+.icon {
+  display: inline-block;
+}
+
+// HTML
+<i class="icon icon-home"></i>
+*/
+.icon-b-clients-1 {
+  background-image: url(../sprites/sprite.png);
+  background-position: 0px 0px;
+  width: 210px;
+  height: 210px;
+}
+.icon-b-clients-2 {
+  background-image: url(../sprites/sprite.png);
+  background-position: -210px 0px;
+  width: 210px;
+  height: 210px;
+}
+.icon-b-clients-3 {
+  background-image: url(../sprites/sprite.png);
+  background-position: 0px -210px;
+  width: 210px;
+  height: 210px;
+}
+.icon-b-clients-4 {
+  background-image: url(../sprites/sprite.png);
+  background-position: -210px -210px;
+  width: 210px;
+  height: 210px;
+}
+.icon-b-features-1 {
+  background-image: url(../sprites/sprite.png);
+  background-position: -420px -56px;
+  width: 54px;
+  height: 44px;
+}
+.icon-b-features-2 {
+  background-image: url(../sprites/sprite.png);
+  background-position: -474px -56px;
+  width: 54px;
+  height: 44px;
+}
+.icon-b-features-3 {
+  background-image: url(../sprites/sprite.png);
+  background-position: -528px -56px;
+  width: 54px;
+  height: 44px;
+}
+.icon-b-features-4 {
+  background-image: url(../sprites/sprite.png);
+  background-position: -420px -100px;
+  width: 54px;
+  height: 44px;
+}
+.icon-b-features-5 {
+  background-image: url(../sprites/sprite.png);
+  background-position: -474px -100px;
+  width: 54px;
+  height: 44px;
+}
+.icon-logo {
+  background-image: url(../sprites/sprite.png);
+  background-position: -420px 0px;
+  width: 181px;
+  height: 56px;
+}
